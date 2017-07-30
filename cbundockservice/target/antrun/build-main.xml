@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <echo>Copying DockerFile</echo>
+  <copy file="C:\tanmen\cbundockservice/docker/Dockerfile" tofile="C:\tanmen\cbundockservice/target/Dockerfile"/>
+</target>
+</project>

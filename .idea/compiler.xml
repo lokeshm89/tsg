@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bargedocker" />
+        <module name="cbauthservice" />
+        <module name="cbdiscoveryservice" />
+        <module name="cbdockservice" />
+        <module name="cbgateway" />
+        <module name="cbgatewayservice" />
+        <module name="cbundockservice" />
+        <module name="cbunloadservice" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bargedocker" target="1.8" />
+      <module name="cbauthservice" target="1.8" />
+      <module name="cbdiscoveryservice" target="1.8" />
+      <module name="cbdockservice" target="1.8" />
+      <module name="cbgateway" target="1.8" />
+      <module name="cbgatewayservice" target="1.8" />
+      <module name="cbundockservice" target="1.8" />
+      <module name="cbunloadservice" target="1.8" />
+      <module name="tanmen" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,28 @@
+server:
+  port: 8443
+  ssl:
+    enabled: true
+    key-alias: spring
+    key-store: cbauthservice/src/main/resources/saml/keystore.jks
+    key-store-password: secret
+  display-name: cbauthservice
+
+security:
+  saml2:
+      metadata-url: https://dev-203453.oktapreview.com/app/exkbfqc8ow2uLg8eU0h7/sso/saml/metadata
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+    name: cbauthservice
+zuul:
+  prefix: /api
+  routes:
+    CBUNDOCKSERVICE:
+      path: /undock/**
+      serviceId: CBUNDOCKSERVICE
+    CBUNLOADSERVICE:
+      path: /unload/**
+      serviceId: CBUNLOADSERVICE

@@ -1,0 +1,11 @@
+server:
+  port: 8002
+  display-name: cbunloadservice
+
+spring:
+  application:
+   name: cbunloadservice
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

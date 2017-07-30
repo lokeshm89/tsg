@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cbdiscoveryservice/cbdiscoveryservice.iml" filepath="$PROJECT_DIR$/cbdiscoveryservice/cbdiscoveryservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cbgatewayservice/cbgatewayservice.iml" filepath="$PROJECT_DIR$/cbgatewayservice/cbgatewayservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cbundockservice/cbundockservice.iml" filepath="$PROJECT_DIR$/cbundockservice/cbundockservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cbunloadservice/cbunloadservice.iml" filepath="$PROJECT_DIR$/cbunloadservice/cbunloadservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tanmen.iml" filepath="$PROJECT_DIR$/tanmen.iml" />
+    </modules>
+  </component>
+</project>
